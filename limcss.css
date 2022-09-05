@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background: url(immagini/background.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.contenitore{
+  width:1275px;
+  height: 1000px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 15px;
+  padding: 5%;
+}
+
+/* logo */
+img{
+  width: 300px;
+}
+h1{
+  color:#00FF00;
+}
+header, nav{
+  text-align: center;
+}
+
+/* barra di navigazione */
+nav{
+  margin-top: 5px;
+  background: #00FF00;
+  height: 50px;
+  justify-content: center;
+  padding: 12px;
+}
+
+/* lo stile del testo del monopattino */
+main{
+  color: white;
+}
+.Monopattino{
+  padding-top: 30px;
+}
+.Monopattino > span{
+  font-size: 20px;
+  font-weight: bolder;
+}
+.Monopattino p{
+  padding-top: 5px;
+}
+
+/* le barre per lo stato di ricarica */
+.barra{
+  width: 400px;
+  background-color: orange;
+  border-radius: 5px;
+  height: 20px;
+}
+.piena{
+  background-color: green;
+  width: 630px;
+}
+.corta{
+  background-color: red;
+  width: 150px;
+}
